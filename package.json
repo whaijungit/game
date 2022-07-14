@@ -1,0 +1,17 @@
+{
+  "name": "teris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.9.14",
+    "typescript": "^4.7.4"
+  }
+}

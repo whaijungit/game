@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/assets/logo.17e50649.svg" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teris game</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        width: 800px;
+        display: flex;
+        margin: 0 auto;
+      }
+      .rect {
+        position: absolute;
+        box-sizing: border-box;
+        border: 1px solid #fff;
+      }
+      #panel {
+        width: 300px;
+        position: relative;
+        background-color: #000;
+      }
+      #tip {
+        position: relative;
+        color: #f40;
+        padding-left: 25px;
+      }
+      #score {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5em;
+        text-align: center;
+      }
+      #message {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.3);
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+      }
+
+      #message span {
+        border: 2px solid #fff;
+        padding: 1em;
+        background-color: #f40;
+        color: #fff;
+      }
+      #next {
+        position: relative;
+        width: 120px;
+        height: 120px;
+      }
+      #descript {
+        color: #f40;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.90d70e11.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div id="panel">
+        <div id="message">
+          <span></span>
+        </div>
+      </div>
+      <div id="tip">
+        <div id="next"></div>
+        <div id="score"></div>
+        <div id="descript">
+          <p>使用光标进行游戏</p>
+          <p>↑: 旋转</p>
+          <p>←: 左</p>
+          <p>→: 右</p>
+          <p>↓: 下</p>
+          <p>空格: 恢复/暂停/开始</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
