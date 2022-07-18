@@ -1,1 +1,0 @@
-{"version":3,"file":"isPoint.js","sourceRoot":"","sources":["../../src/common/isPoint.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,OAAO,CAAC,MAAU;IAC9B,IAAI,OAAO,MAAM,CAAC,CAAC,KAAK,WAAW,EAAE;QACjC,OAAO,KAAK,CAAA;KACf;IACD,OAAO,IAAI,CAAA;AACf,CAAC"}

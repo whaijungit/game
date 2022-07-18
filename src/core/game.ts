@@ -8,10 +8,10 @@ import { GameStatus, GameViewer, MoveDirection } from '../common/interfaces';
 class Game {
     private _timer?: number
     private _score: number = 0
+    private _duration: number
     private _curTeris?: TerisGroup
     private _nextTeris: TerisGroup
     private _exists: Rectangle[] = []
-    private _duration: number
     private _gameStatus: GameStatus = GameStatus.init
     get score() {
         return this._score
